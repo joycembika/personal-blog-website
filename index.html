@@ -7,16 +7,17 @@
     <title>Personal Blog Website</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+
     <script
       src="https://kit.fontawesome.com/36f7ebaa7b.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="wrapper">
-        <nav>
-          <ul>
+        <nav class="nav">
+          <ul class="nav-links">
             <li class="nav-link"><a href="index.html">Home</a></li>
             <li class="nav-link">
               <a href="blog-post.html/#subscribe">Subscribe</a>
@@ -29,19 +30,20 @@
       <div class="wrapper">
         <h1 class="hidden">Blog Home Page</h1>
         <div class="blog-posts">
-          <h2>Blog Posts</h2>
+          <h2>Recent Blog Posts</h2>
           <div class="article-cards">
             <!-- Article One Wellness-->
             <div class="article-card">
               <!-- Article Image -->
               <div class="card-img-container">
-                <img
-                  src="images/wellness-madison-lavern-4gcqRf3-f2I-unsplash.jpg"
-                  alt="Picture of madison-lavern"
-                  class="card-img"
-                />
-                <span class="img-credit"
-                  >Photo by
+                <div class="card-image">
+                  <img
+                    src="images/wellness-madison-lavern-4gcqRf3-f2I-unsplash.jpg"
+                    alt="Picture of madison-lavern"
+                  />
+                </div>
+                <div class="img-credit">
+                  Photo by
                   <a
                     href="https://unsplash.com/@yogagenapp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >madison lavern</a
@@ -51,14 +53,14 @@
                     href="https://unsplash.com/photos/4gcqRf3-f2I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Unsplash</a
                   >
-                </span>
+                </div>
               </div>
               <!-- Article Details -->
               <div class="card-wrapper">
                 <div class="card-details">
                   <div class="card-author-category">
-                    <div class="card-category-name">Wellness</div>
-                    <div class="card-author-name">by Joyce Mbika</div>
+                    <p class="card-category-name">Wellness</p>
+                    <p class="card-author-name">by Joyce Mbika</p>
                   </div>
                   <h3 class="headline">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -73,13 +75,15 @@
             <div class="article-card">
               <!-- Article Image -->
               <div class="card-img-container">
-                <img
-                  src="images/markus-winkler-VCPfdECTUnA-unsplash.jpg"
-                  alt="Picture of start up investment paper"
-                  class="card-img"
-                />
-                <span class="img-credit"
-                  >Photo by
+                <div class="card-image">
+                  <img
+                    src="images/markus-winkler-VCPfdECTUnA-unsplash.jpg"
+                    alt="Picture of start up investment paper"
+                  />
+                </div>
+
+                <div class="img-credit">
+                  Photo by
                   <a
                     href="https://unsplash.com/es/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Markus Winkler</a
@@ -89,14 +93,14 @@
                     href="https://unsplash.com/@theafricangirlmediagroup/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Unsplash</a
                   >
-                </span>
+                </div>
               </div>
               <!-- Article Details -->
               <div class="card-wrapper">
                 <div class="card-details">
                   <div class="card-author-category">
-                    <div class="card-category-name">Business</div>
-                    <div class="card-author-name">by Joyce Mbika</div>
+                    <p class="card-category-name">Business</p>
+                    <p class="card-author-name">by Joyce Mbika</p>
                   </div>
                   <h3 class="headline">
                     Dolor sit amet consectetur adipisicing elit, explicabo
@@ -112,13 +116,15 @@
             <div class="article-card">
               <!-- Article Image -->
               <div class="card-img-container">
-                <img
-                  src="images/hope-house-press-leather-diary-studio-PJzc7LOt2Ig-unsplash.jpg"
-                  alt="Picture of diary with coffee on the table"
-                  class="card-img"
-                />
-                <span class="img-credit"
-                  >Photo by
+                <div class="card-image">
+                  <img
+                    src="images/hope-house-press-leather-diary-studio-PJzc7LOt2Ig-unsplash.jpg"
+                    alt="Picture of diary with coffee on the table"
+                  />
+                </div>
+
+                <div class="img-credit">
+                  Photo by
                   <a
                     href="https://unsplash.com/@hope_house_press_leather_diary_studio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Hope House Press - Leather Diary Studio</a
@@ -128,14 +134,14 @@
                     href="https://unsplash.com/@theafricangirlmediagroup/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Unsplash</a
                   >
-                </span>
+                </div>
               </div>
               <!-- Article Details -->
               <div class="card-wrapper">
                 <div class="card-details">
                   <div class="card-author-category">
-                    <div class="card-category-name">Career</div>
-                    <div class="card-author-name">by Joyce Mbika</div>
+                    <p class="card-category-name">Career</p>
+                    <p class="card-author-name">by Joyce Mbika</p>
                   </div>
                   <h3 class="headline">
                     LUt tenetur qui corporis praesentium nihil explicabo.
@@ -150,13 +156,14 @@
             <div class="article-card">
               <!-- Article Image -->
               <div class="card-img-container">
-                <img
-                  src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
-                  alt="Picture of Laptop and books on table"
-                  class="card-img"
-                />
-                <span class="img-credit"
-                  >Photo by
+                <div class="card-image">
+                  <img
+                    src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+                    alt="Picture of Laptop and books on table"
+                  />
+                </div>
+                <div class="img-credit">
+                  Photo by
                   <a
                     href="https://unsplash.com/@emilep?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Emile Perron</a
@@ -166,14 +173,14 @@
                     href="https://unsplash.com/@theafricangirlmediagroup/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Unsplash</a
                   >
-                </span>
+                </div>
               </div>
               <!-- Article Details -->
               <div class="card-wrapper">
                 <div class="card-details">
                   <div class="card-author-category">
-                    <div class="card-category-name">Career</div>
-                    <div class="card-author-name">by Joyce Mbika</div>
+                    <p class="card-category-name">Career</p>
+                    <p class="card-author-name">by Joyce Mbika</p>
                   </div>
                   <h3 class="headline">
                     Aut rerum fugiat suscipit voluptate optio quidem nostrum
@@ -189,13 +196,14 @@
             <div class="article-card">
               <!-- Article Image -->
               <div class="card-img-container">
-                <img
-                  src="images/micheile-dot-com-ZVprbBmT8QA-unsplash.jpg"
-                  alt="Picture of coin in a cup with a tree growing out it"
-                  class="card-img"
-                />
-                <span class="img-credit"
-                  >Photo by
+                <div class="card-image">
+                  <img
+                    src="images/micheile-dot-com-ZVprbBmT8QA-unsplash.jpg"
+                    alt="Picture of coin in a cup with a tree growing out it"
+                  />
+                </div>
+                <div class="img-credit">
+                  Photo by
                   <a
                     href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >micheile dot com</a
@@ -205,14 +213,14 @@
                     href="https://unsplash.com/s/photos/money-management?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Unsplash</a
                   >
-                </span>
+                </div>
               </div>
               <!-- Article Details -->
               <div class="card-wrapper">
                 <div class="card-details">
                   <div class="card-author-category">
-                    <div class="card-category-name">Finance</div>
-                    <div class="card-author-name">by Joyce Mbika</div>
+                    <p class="card-category-name">Finance</p>
+                    <p class="card-author-name">by Joyce Mbika</p>
                   </div>
                   <h3 class="headline">
                     Ea sint natus molestias, dolorum recusandae culpa mollitia
@@ -228,13 +236,14 @@
             <div class="article-card">
               <!-- Article Image -->
               <div class="card-img-container">
-                <img
-                  src="images/boxed-water-is-better-zQNDCje06VM-unsplash.jpg"
-                  alt="Picture of madison-lavern"
-                  class="card-img"
-                />
-                <span class="img-credit"
-                  >Photo by
+                <div class="card-image">
+                  <img
+                    src="images/boxed-water-is-better-zQNDCje06VM-unsplash.jpg"
+                    alt="Picture of madison-lavern"
+                  />
+                </div>
+                <div class="img-credit">
+                  Photo by
                   <a
                     href="https://unsplash.com/@boxedwater?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Boxed Water Is Better</a
@@ -244,14 +253,14 @@
                     href="https://unsplash.com/s/photos/wellness?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                     >Unsplash</a
                   >
-                </span>
+                </div>
               </div>
               <!-- Article Details -->
               <div class="card-wrapper">
                 <div class="card-details">
                   <div class="card-author-category">
-                    <div class="card-category-name">Wellness</div>
-                    <div class="card-author-name">by Joyce Mbika</div>
+                    <p class="card-category-name">Wellness</p>
+                    <p class="card-author-name">by Joyce Mbika</p>
                   </div>
                   <h3 class="headline">
                     Alias laboriosam magnam repudiandae, corrupti soluta ipsa
