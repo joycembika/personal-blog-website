@@ -229,7 +229,7 @@ article h3 {
 .social-share-buttons p {
   text-transform: uppercase;
   font-weight: 600;
-  color: grey;
+  color: #010203;
 }
 .social-buttons {
   display: flex;
